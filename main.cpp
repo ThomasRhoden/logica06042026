@@ -4,7 +4,7 @@
 int main(){
 
     std::string nome;
-    std::string sobrenome = " Rhoden";
+    auto sobrenome = " Rhoden";
 
     std::cout<<"Digite seu nome: "<<std::endl;
     std::cin>>nome;
